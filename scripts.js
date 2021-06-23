@@ -22,3 +22,27 @@ function MouseRolloverFour(yosemite_fall) {
 function MouseOutFour(yosemite_california) {
   yosemite_california.src = "./assets/yosemite_california.png";
   }
+  function MouseRolloverFive(glacier_sunset) {
+    glacier_sunset.src = "./assets/glacier_sunset.png";
+  }
+function MouseOutFive(glacierpark_utah) {
+  glacierpark_utah.src = "./assets/glacierpark_utah.png";
+  }
+  function MouseRolloverSix(yellowstone_geyser) {
+    yellowstone_geyser.src = "./assets/yellowstone_geyser.png";
+  }
+function MouseOutSix(yellowstone_wyoming) {
+  yellowstone_wyoming.src = "./assets/yellowstone_wyoming.png";
+  }
+  function MouseRolloverSeven(aurora_alaska) {
+    aurora_alaska.src = "./assets/aurora_alaska.png";
+  }
+function MouseOutSeven(denali_alaska) {
+  denali_alaska.src = "./assets/denali_alaska.png";
+  }
+  function MouseRolloverEight(kalalau_beach_hawaii) {
+    kalalau_beach_hawaii.src = "./assets/kalalau_beach_hawaii.png";
+  }
+function MouseOutEight(kalalau_hawaii) {
+    kalalau_hawaii.src = "./assets/kalalau_hawaii.png";
+  } 
