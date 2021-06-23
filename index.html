@@ -26,13 +26,13 @@
         <div class="collapse navbar-collapse" id="navmenu">
           <ul class ="navbar-nav ms-auto fs-5">
             <li class="nav-item">
-              <a href="#nature" class="nav-link">US Natural Wonders</a>
+              <a href="#us_natural_wonders" class="nav-link">US Natural Wonders</a>
             </li>
             <li class="nav-item">
               <a href="#cities" class="nav-link">US Cities</a>
             </li>
             <li class="nav-item">
-              <a href="#US Events" class="nav-link">US Events</a>
+              <a href="#us_events" class="nav-link">US Events</a>
             </li>
             <li class="nav-item">
               <a href="#foreign" class="nav-link">Foreign Countries</a>
@@ -48,21 +48,27 @@
       </div>  
     </div>
 
-    <div class="container text-center pb-4">
+    <div class="container text-center pb-4" id="us_natural_wonders">
       <div class="row row-cols-2 gy-5">
-        <div class="col .img-fluid ">
-          <img src="./assets/ramona-spring.png" class="rounded-3" alt="Ramona Falls Oregon Summer"
-          onMouseOver="MouseRollover(this)" 
-          onMouseOut="MouseOut(this)" />
+        <div class="col .img-fluid">
+          <img src="./assets/ramona_spring.png" class="rounded-3" alt="Ramona Falls Oregon" title="Ramona Falls Oregon"
+          onMouseOver="MouseRolloverOne(this)" 
+          onMouseOut="MouseOutOne(this)" />
         </div>
-        <div class="col .img-fluid .img-thumbnail">
-          <img src="./assets/ramona-winter.png" class="rounded-3" alt="Ramona Falls Oregon Winter">
+        <div class="col .img-fluid">
+          <img src="./assets/mcneilpoint_oregon.png" class="rounded-3" alt="Mcneil Point Oregon" title="Mcneil Point Oregon"
+          onMouseOver="MouseRolloverTwo(this)" 
+          onMouseOut="MouseOutTwo(this)" />
         </div>
-        <div class="col .img-fluid .img-thumbnail">
-          <img src="./assets/ramona-winter.png" class="rounded-3" alt="Ramona Falls Oregon">
+        <div class="col .img-fluid">
+          <img src="./assets/thenarrows_utah.png" class="rounded-3" alt="The Narrows Utah" title="The Narrows Utah"
+          onMouseOver="MouseRolloverThree(this)" 
+          onMouseOut="MouseOutThree(this)" />
         </div>
-        <div class="col .img-fluid .img-thumbnail">
-          <img src="./assets/ramona-winter.png" class="rounded-3" alt="Ramona Falls Oregon">
+        <div class="col .img-fluid">
+          <img src="./assets/yosemite_california.png" class="rounded-3" alt="Yosemite California" title="Yosemite California"
+          onMouseOver="MouseRolloverFour(this)" 
+          onMouseOut="MouseOutFour(this)" />
         </div>
       </div>
     </div>
