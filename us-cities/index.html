@@ -57,28 +57,24 @@
           <img src="../assets/asheville.png" class="rounded-3 d-block w-100" alt="Asheville, NC">
           <div class="carousel-caption d-none d-md-block">
             <h5>Asheville, NC</h5>
-            <!-- <p>Some representative placeholder content for the first slide.</p> -->
           </div>          
         </div>
         <div class="col .img-fluid carousel-item">
-          <img src="../assets/miami.png" class="rounded-3 d-block w-100" alt="Mcneil Point Oregon">
+          <img src="../assets/miami.png" class="rounded-3 d-block w-100" alt="Miami, FL">
           <div class="carousel-caption d-none d-md-block">
-            <h5>Miami, Fl</h5>
-            <!-- <p>Some representative placeholder content for the first slide.</p> -->
+            <h5>Miami, FL</h5>
           </div>         
         </div>
         <div class="col .img-fluid carousel-item">
           <img src="../assets/denver.png" class="rounded-3 d-block w-100" alt="Denver, CO">
           <div class="carousel-caption d-none d-md-block">
             <h5>Denver, CO</h5>
-            <!-- <p>Some representative placeholder content for the first slide.</p> -->
           </div>         
         </div>
         <div class="col .img-fluid carousel-item">
           <img src="../assets/seattle.png" class="rounded-3 d-block w-100" alt="Seattle, WA">
           <div class="carousel-caption d-none d-md-block">
             <h5>Seattle, WA</h5>
-            <!-- <p>Some representative placeholder content for the first slide.</p> -->
           </div>         
         </div>
       </div>
@@ -98,30 +94,49 @@
       </div>  
     </div>
     
-    <div class="container text-center pb-4">
-      <div class="row row-cols-2 gy-5">
-        <div class="col .img-fluid">
-          <img src="../assets/glacierpark_utah.png" class="rounded-3" alt="Glacierpark Utah" title="Glacierpark Utah"
-          onMouseOver="MouseRolloverFive(this)" 
-          onMouseOut="MouseOutFive(this)" />
-        </div>
-        <div class="col .img-fluid">
-          <img src="../assets/yellowstone_wyoming.png" class="rounded-3" alt="Yellowstone Wyoming" title="Yellowstone Wyoming"
-          onMouseOver="MouseRolloverSix(this)" 
-          onMouseOut="MouseOutSix(this)" />
-        </div>
-        <div class="col .img-fluid">
-          <img src="../assets/denali_alaska.png" class="rounded-3" alt="Denali Alaska" title="Denali Alaska"
-          onMouseOver="MouseRolloverSeven(this)" 
-          onMouseOut="MouseOutSeven(this)" />
-        </div>
-        <div class="col .img-fluid">
-          <img src="../assets/kalalau_hawaii.png" class="rounded-3" alt="Kalalau Hawaii" title="Kalalau Hawaii"
-          onMouseOver="MouseRolloverEight(this)" 
-          onMouseOut="MouseOutEight(this)" />
-        </div>  
+    <div class="container col-6 text-center pb-4 carousel slide carousel-fade" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#usCitiesCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#usCitiesCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#usCitiesCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#usCitiesCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
       </div>
-    </div>  
+      <div class="carousel-inner">
+        <div class="col .img-fluid carousel-item active">
+          <img src="../assets/las_vegas.png" class="rounded-3 d-block w-100" alt="Las Vegas, NV">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Las Vegas, NV</h5>
+          </div>          
+        </div>
+        <div class="col .img-fluid carousel-item">
+          <img src="../assets/san-diego.png" class="rounded-3 d-block w-100" alt="San Diego, CA">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>San Diego, CA</h5>
+          </div>         
+        </div>
+        <div class="col .img-fluid carousel-item">
+          <img src="../assets/los_angeles.png" class="rounded-3 d-block w-100" alt="Los Angeles, CA">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Los Angeles, CA</h5>
+          </div>         
+        </div>
+        <div class="col .img-fluid carousel-item">
+          <img src="../assets/honolulu_oahu.png" class="rounded-3 d-block w-100" alt="honolulu Oahu, HI">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>honolulu Oahu, HI</h5>
+          </div>         
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#usCitiesCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#usCitiesCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
   </body>
 </html>
